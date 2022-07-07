@@ -5,12 +5,16 @@ alert("Un Mensaje");
 document.write("<h1>Hola Mundo</h1>");
 
 // resultado de suma
-document.write("Resultado:" + (5 + 3));
+document.write("Resultado:" + (5 + 3) + "<br/>");
 
 // Nombre usuario
-let Nombre = prompt("Hola Nombre de Usuario")
+let Nombre = prompt("Hola Nombre de Usuario");
+console.log(Nombre);
 
-let num1 , num2 , total
-num1=prompt("digite el numero 1:")
-num2=prompt("digite el numero 2:")
-total=prompt("resultado")
+let numero1 =parseInt(prompt("ingrese el primer numero"));
+let numero2 = parseInt(prompt("ingrese el segundo numero"));
+console.log(numero1);
+console.log(numero2);
+console.log(50);
+// console.log(parseInt(numero1));
+document.write("La suma es " + (numero1 + numero2));
